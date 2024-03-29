@@ -1,27 +1,25 @@
-# [Cong-Thanh Vu](https://sites.google.com/view/vuthanhcdt/home) packages for Agribot
-These packages made by [Thanh](https://sites.google.com/view/vuthanhcdt/home) from [Networked robotic systems laboratory](https://sites.google.com/site/yenchenliuncku). If you use any packages from this repository, please cite this repository and my name.
+# Hsin-Chia Chen packages for Filaria Detect
+These packages are produced by Hsin-Chia Chen of the [Network Robotic Systems Laboratory](https://sites.google.com/site/yenchenliuncku).
+## File conversion
+Convert files with extension '.tiff' in the "TIFF" folder to '.png'
+````
+python3 train_seg.py
+````
+After that, go into the "PNG" folder and check the files
 
-## Preparing a custom dataset for YOLOv8
-- Generate datasets with [Roboflow](https://app.roboflow.com/) and download this to ``data``
-- Trainning
-### YOLOv8 Instance Segmentation
-```
-python3 train_seg.py 
-```
-- Validate data with image name: ``test_predict.jpg``
-```
+## Use this data set for detection
+````
 python3 predict_seg.py
-```
-After that, go to ``runs/segment/predict`` to check the model
+````
+After that, go to the “Result” folder to check the results
 
-### YOLOv8 Object detection
+## Prepare custom dataset for YOLOv8
+- Use [Roboflow](https://app.roboflow.com/) to generate a data set and download it to "data"
 
-```
-python3 train.py 
-```
-- Validate data with image name: ``test_predict.jpg``
-```
-python3 predict.py
-```
-After that, go to ``runs/detec/predict`` to check the model
-# Filaria-Detection
+- Trainning
+
+### YOLOv8 instance segmentation
+````
+python3 train_seg.py
+````
+After that, enter "runs/segment/train" to check the training results
