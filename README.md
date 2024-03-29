@@ -3,7 +3,7 @@ These packages are produced by Hsin-Chia Chen of the [Network Robotic Systems La
 ## File conversion
 Convert files with extension '.tiff' in the "TIFF" folder to '.png'
 ````
-python3 train_seg.py
+python3 Tiff2Png.py
 ````
 After that, go into the "PNG" folder and check the files
 
