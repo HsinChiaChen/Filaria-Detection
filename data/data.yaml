@@ -1,0 +1,12 @@
+names:
+- filarid
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: filarid
+  url: https://universe.roboflow.com/agribot-ondat/filarid/dataset/1
+  version: 1
+  workspace: agribot-ondat
+test: ../test/images
+train: ../train/images
+val: ../valid/images
