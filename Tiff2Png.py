@@ -18,3 +18,5 @@ for filename in os.listdir(tif_dir):
     from PIL import Image
     img = Image.open(tif_path)
     img.save(png_path)
+
+print("Finish!")

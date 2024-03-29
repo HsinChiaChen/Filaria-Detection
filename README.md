@@ -12,6 +12,8 @@ After that, go into the "PNG" folder and check the files
 python3 predict_seg.py
 ````
 After that, go to the “Result” folder to check the results
+The detected range will be surrounded by a red frame, and details will be filled in red.
+The total number detected will be displayed in the upper left corner of the picture.
 
 ## Prepare custom dataset for YOLOv8
 - Use [Roboflow](https://app.roboflow.com/) to generate a data set and download it to "data"
